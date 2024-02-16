@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify - music playlist </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="logo"><img src="img/logo.jpg" alt="logo"><span>spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Aashish rajput website</h2>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <div class="specialN">
+                    <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
+                    <span class="TitleName"> Hanuman Chalisa</span>
+                </div>
+                <div class="specialM">
+                    <span class="songListPlay"><span class="duration">10:07</span></span>
+                    <i id="0" class="playIcon fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+
+            <audio src="music/1.mp3.mp3"></audio>
+            <audio src="music/2.mp3.mp3"></audio>
+            <audio src="music/3.mp3.mp3"></audio>
+            <audio src="music/4.mp3.mp3"></audio>
+            <audio src="music/5.mp3.mp3"></audio>
+            <div class="songItem">
+                <div class="specialN">
+                    <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
+                    <span class="TitleName"> Hanuman Chalisa</span>
+                </div>
+                <div class="specialM">
+                    <span class="songListPlay"><span class="duration">10:07</span></span>
+                    <i id="1" class="playIcon fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+            <div class="songItem">
+                <div class="specialN">
+                    <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
+                    <span class="TitleName"> Hanuman Chalisa</span>
+                </div>
+                <div class="specialM">
+                    <span class="songListPlay"><span class="duration">10:07</span></span>
+                    <i id="2" class="playIcon fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="specialN">
+                    <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
+                    <span class="TitleName"> Hanuman Chalisa</span>
+                </div>
+                <div class="specialM">
+                    <span class="songListPlay"><span class="duration">10:07</span></span>
+                    <i id="3" class="playIcon fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="specialN">
+                    <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
+                    <span class="TitleName"> Hanuman Chalisa</span>
+                </div>
+                <div class="specialM">
+                    <span class="songListPlay"><span class="duration">10:07</span></span>
+                    <i id="4" class="playIcon fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+
+            <div class="songItem">
+                <div class="specialN">
+                    <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
+                    <span class="TitleName"> Hanuman Chalisa</span>
+                </div>
+                <div class="specialM">
+                    <span class="songListPlay"><span class="duration">10:07</span></span>
+                    <i id="5" class="playIcon fa-solid fa-circle-play"></i>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bottom">
+        <div>
+            <input type="range" name="range" id="rangeBar" min="0" value="0" max="100">
+        </div>
+        <div class="playBtn">
+            <!-- <img class="icons prev" id="btn prevButton" src="img/backward-solid.svg" alt="backward">
+            <img class="icons p" id="masterPlay" src="img/play-solid.svg" alt="play">
+            <img class="icons b" id="btn forwardButton" src="img/forward-solid.svg" alt="forward"> -->
+            <i class="musicControlerLeft fa-solid fa-backward"></i>
+            <i class="icons fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="musicControlerRight fa-solid fa-forward"></i>
+
+        </div>
+
+        <div class="songInfo">
+
+            <img src="img/playGif.gif" id="gif" width="100px" alt="gif">
+            <p class="songTitle">Hanuman Chalisa - jai bajrang bali</p>
+
+
+        </div>
+
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>
