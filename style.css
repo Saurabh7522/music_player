@@ -57,9 +57,9 @@ nav ul li {
 }
 
 h2 {
-    text-align: right;
+    text-align: center;
     padding: 13px 70px;
-    font-family: sans;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 #rangeBar {
