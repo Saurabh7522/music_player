@@ -20,15 +20,16 @@
         </ul>
     </nav>
     <div class="container">
-        <h2>Aashish rajput website</h2>
+        <h2>music player</h2>
         <div class="songItemContainer">
             <div class="songItem">
                 <div class="specialN">
                     <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
-                    <span class="TitleName"> Hanuman Chalisa</span>
+                    <span class="TitleName"></span>
+                    <span class="duration"></span>
                 </div>
                 <div class="specialM">
-                    <span class="songListPlay"><span class="duration">10:07</span></span>
+                    <span class="songListPlay"><span class="duration"></span></span>
                     <i id="0" class="playIcon fa-solid fa-circle-play"></i>
                 </div>
             </div>
@@ -38,6 +39,7 @@
             <audio src="music/3.mp3.mp3"></audio>
             <audio src="music/4.mp3.mp3"></audio>
             <audio src="music/5.mp3.mp3"></audio>
+
             <div class="songItem">
                 <div class="specialN">
                     <img class="bajrangbali" src="img/bajrangbali.jpg" alt="1">
@@ -100,12 +102,9 @@
             <input type="range" name="range" id="rangeBar" min="0" value="0" max="100">
         </div>
         <div class="playBtn">
-            <!-- <img class="icons prev" id="btn prevButton" src="img/backward-solid.svg" alt="backward">
-            <img class="icons p" id="masterPlay" src="img/play-solid.svg" alt="play">
-            <img class="icons b" id="btn forwardButton" src="img/forward-solid.svg" alt="forward"> -->
-            <i class="musicControlerLeft fa-solid fa-backward"></i>
+            <i class="musicControlerLeft fa-solid fa-backward" id="previousButton"></i>
             <i class="icons fa-solid fa-circle-play" id="masterPlay"></i>
-            <i class="musicControlerRight fa-solid fa-forward"></i>
+            <i class="musicControlerRight fa-solid fa-forward" id="nextButton"></i>
 
         </div>
 
@@ -113,7 +112,7 @@
 
             <img src="img/playGif.gif" id="gif" width="100px" alt="gif">
             <p class="songTitle">Hanuman Chalisa - jai bajrang bali</p>
-
+            <duration id="duration">00:00:00</duration>
 
         </div>
 

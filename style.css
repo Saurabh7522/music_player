@@ -175,12 +175,17 @@ h2 {
 }
 
 
-
+#nextButton, #previousButton, #masterPlay{
+    cursor: pointer;
+}
 .songListPlay {
     margin-left: 57px;
     margin-bottom: 5px;
 }
 
+#duration{
+    color: white;
+}
 .songInfo img {
     font-family: 'Ubuntu', sans-serif;
     position: absolute;
